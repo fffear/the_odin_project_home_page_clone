@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Norse";
+  src: url("../typography/norse/Norse-Bold.otf");
+}
+.test {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Norse";
+}
+
+.navbar {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.navbar .left-nav-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .left-nav-section .hamburger-menu {
+  display: block;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%270%200%2032%2032%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20stroke%3D%27%236abfc3%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-miterlimit%3D%2710%27%20d%3D%27M4%208h24M4%2016h24M4%2024h24%27%2F%3E%3C%2Fsvg%3E") left top no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.navbar .logo-brand {
+  display: inline-flex;
+  align-items: center;
+}
+.navbar .logo-brand .logo-image {
+  height: 60px;
+}
+.navbar .logo-brand .logo-text {
+  font-size: 24px;
+  overflow-x: visible;
+  font-weight: bold;
+  margin-left: 16px;
+  font-family: "Norse";
+  line-height: 36px;
+  color: #CC9543;
+  white-space: nowrap;
+}
+.navbar .right-nav-section {
+  display: none;
+}
+.navbar .nav-links {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar .nav-link {
+  display: inline-block;
+  padding: 8px;
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+}
+.navbar .nav-link:hover {
+  color: #000;
+}
+.navbar .list-divider {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 0 168px;
+  }
+  .navbar .left-nav-section {
+    width: auto;
+  }
+  .navbar .left-nav-section .hamburger-menu {
+    display: none;
+  }
+  .navbar .nav-links {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .navbar .nav-link {
+    display: inline-block;
+    padding: 8px;
+    color: rgba(74, 74, 74, 0.7);
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .navbar .nav-link:hover {
+    color: #000;
+  }
+  .navbar .right-nav-section {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1036px) {
+  .navbar .logo-brand {
+    display: inline-flex;
+    align-items: center;
+  }
+  .navbar .logo-brand .logo-image {
+    height: 70px;
+  }
+  .navbar .logo-brand .logo-text {
+    font-size: 32px;
+    overflow-x: visible;
+    font-weight: bold;
+    margin-left: 16px;
+    font-family: "Norse";
+    line-height: 48px;
+    color: #CC9543;
+    white-space: nowrap;
+  }
+}
+
+/*# sourceMappingURL=main_style.css.map */

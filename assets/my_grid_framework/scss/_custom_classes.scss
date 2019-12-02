@@ -1,0 +1,18 @@
+@use 'utilities_spacing';
+@use 'typography';
+
+$padding-values: 0 5;
+$margin-values: 0 16;
+$font-sizes: 20;
+
+@each $value in $padding-values {
+  @include utilities_spacing.spacing-class("padding", $value, px);
+}
+
+@each $value in $margin-values {
+  @include utilities_spacing.spacing-class("margin", $value, px);
+}
+
+@each $value in $font-sizes {
+  @include typography.font-size-class($value, px);
+}

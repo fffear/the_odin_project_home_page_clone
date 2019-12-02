@@ -1,0 +1,31 @@
+@use 'variables';
+@use 'media_breakpoints';
+
+// create xs spacing classes
+@mixin create-xs-font-size-classes($value, $unit_of_measurement) {
+  .fs-#{$value} {
+    font-size: #{$value}#{$unit_of_measurement};
+  }
+}
+
+// create spacing classes larger than xs
+@mixin create-sm-and-up-font-size-classes($value, $unit_of_measurement, $breakpoint-size-key) {
+  .fs-#{$breakpoint-size-key}-#{$value} {
+    font-size: #{$value}#{$unit_of_measurement};
+  }
+}
+
+// create a spacing class for a px value and specific media breakpoint
+@mixin font-size-class($value, $unit_of_measurement) {
+  @each $breakpoint-size-key, $breakpoint-size in variables.$breakpoint-sizes {
+    // apply media query to breakpoint size
+    @include media_breakpoints.media-breakpoint-up($breakpoint-size-key) {
+      @if $breakpoint-size-key == xs {
+        @include create-xs-font-size-classes($value, $unit_of_measurement);
+      }
+      @else {
+        @include create-sm-and-up-font-size-classes($value, $unit_of_measurement, $breakpoint-size-key);
+      }
+    }
+  }
+}

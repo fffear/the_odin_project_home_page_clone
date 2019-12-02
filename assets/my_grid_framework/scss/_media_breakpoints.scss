@@ -1,0 +1,8 @@
+@use 'variables';
+
+// applies a media query based on the specific breakpoint key passed in as a variable
+@mixin media-breakpoint-up($breakpoint-size-key) {
+  @if map-has-key(variables.$breakpoint-sizes, $breakpoint-size-key) {
+    @media only screen and (min-width: map-get(variables.$breakpoint-sizes, $breakpoint-size-key)) { @content; }
+  }
+}

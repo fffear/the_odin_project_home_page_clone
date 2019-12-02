@@ -1,0 +1,61 @@
+@use 'variables';
+@use 'media_breakpoints';
+
+// calculates the size of every column in the container
+@mixin col-unit($span) {
+  margin: 0 (variables.$gutter-width / 2);
+  width: calc(((100% - 360px) * #{variables.$column-width} * #{$span}) + (#{variables.$gutter-width} * (#{$span} - 1)));
+}
+
+// applies a media query based on the specific breakpoint key passed in as a variable
+// @mixin media-breakpoint-up($breakpoint-size-key) {
+//   @if map-has-key(variables.$breakpoint-sizes, $breakpoint-size-key) {
+//     @media only screen and (min-width: map-get(variables.$breakpoint-sizes, $breakpoint-size-key)) { @content; }
+//   }
+// }
+
+:root {
+  line-height: variables.$line-height-base * 1.5;
+  font-size: variables.$font-size-base;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+// container class for grid
+.container-12 {
+  margin: 0 auto;
+  min-width: 320px;  
+  max-width: 1310px;
+  padding: 0 30px;
+
+  // row class declaring a row in the container
+  .row {
+    display: flex;    
+    margin: 0 -15px;
+    flex-wrap: wrap;
+
+    // loop to create classes based on column size
+    @for $i from 1 through 12 {
+      .col-#{$i} {
+        @include col-unit($i);
+      }
+    }
+
+    // loop to create classes based on column size
+    @for $i from 1 through 12 {
+      // loop to create class with a specific column size based on a breakpoint size
+      @each $breakpoint-size-key, $breakpoint-size in variables.$breakpoint-sizes {
+        // apply media query to breakpoint size
+        @include media_breakpoints.media-breakpoint-up($breakpoint-size-key) {
+          .col-#{$breakpoint-size-key}-#{$i} {
+            // calculates the size of column for specific breakpoint size
+            @include col-unit($i);
+          }
+        }
+      }
+    }
+  }
+}
+

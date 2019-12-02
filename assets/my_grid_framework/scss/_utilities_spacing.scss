@@ -1,0 +1,86 @@
+@use 'variables';
+@use 'media_breakpoints';
+
+// create xs spacing classes
+@mixin create-xs-spacing-classes($spacing-type, $value, $unit_of_measurement, $side: null) {
+  @if $side == null {
+    .#{map-get(variables.$spacing-types, $spacing-type)}-#{$value} {
+      #{$spacing-type}: #{$value}#{$unit_of_measurement};
+    }
+  }
+  @else if map-has-key(variables.$valid-sides, $side) {
+    @if $side == "horizontal" {
+      .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$value} {
+        #{$spacing-type}-left: #{$value}#{$unit_of_measurement};
+        #{$spacing-type}-right: #{$value}#{$unit_of_measurement};
+      }
+    }
+    @else if $side == "vertical" {
+      .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$value} {
+        #{$spacing-type}-top: #{$value}#{$unit_of_measurement};
+        #{$spacing-type}-bottom: #{$value}#{$unit_of_measurement};
+      }
+    }
+    @else {
+      .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$value} {
+        #{$spacing-type}-#{$side}: #{$value}#{$unit_of_measurement};
+      }
+    }
+  }
+}
+
+// create spacing classes larger than xs
+@mixin create-sm-and-up-spacing-classes($spacing-type, $value, $unit_of_measurement, $breakpoint-size-key, $side: null) {
+  @if $side == null {
+    .#{map-get(variables.$spacing-types, $spacing-type)}-#{$breakpoint-size-key}-#{$value} {
+      padding: #{$value}#{$unit_of_measurement};
+    }
+  }
+  @else if map-has-key(variables.$valid-sides, $side)  {
+    @if $side == "horizontal" {
+      .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$breakpoint-size-key}-#{$value} {
+        padding-left: #{$value}#{$unit_of_measurement};
+        padding-right: #{$value}#{$unit_of_measurement};
+      }
+    }
+    @else if $side == "vertical" {
+      .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$breakpoint-size-key}-#{$value} {
+        padding-top: #{$value}#{$unit_of_measurement};
+        padding-bottom: #{$value}#{$unit_of_measurement};
+      }
+    }
+    @else {
+      .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$breakpoint-size-key}-#{$value} {
+        padding-#{$side}: #{$value}#{$unit_of_measurement};
+      }
+    }
+  }
+}
+
+// create a spacing class for a px value and specific media breakpoint
+@mixin spacing-class($spacing-type, $value, $unit_of_measurement) {
+  @each $breakpoint-size-key, $breakpoint-size in variables.$breakpoint-sizes {
+    @include media_breakpoints.media-breakpoint-up($breakpoint-size-key) {
+      @if $breakpoint-size-key == xs {
+        @include create-xs-spacing-classes($spacing-type, $value, $unit_of_measurement);
+      }
+      @else {
+        @include create-sm-and-up-spacing-classes($spacing-type, $value, $unit_of_measurement, $breakpoint-size-key);
+      }
+    }
+  }
+
+  @each $side-key, $side in variables.$valid-sides {
+    @each $breakpoint-size-key, $breakpoint-size in variables.$breakpoint-sizes {
+      // apply media query to breakpoint size
+      @include media_breakpoints.media-breakpoint-up($breakpoint-size-key) {
+        @if $breakpoint-size-key == xs {
+          @include create-xs-spacing-classes($spacing-type, $value, $unit_of_measurement, $side-key);
+        }
+        @else {
+          @include create-sm-and-up-spacing-classes($spacing-type, $value, $unit_of_measurement, $breakpoint-size-key, $side-key);
+        }
+      }
+    }
+  }
+}
