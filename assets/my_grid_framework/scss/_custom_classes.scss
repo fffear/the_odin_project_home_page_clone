@@ -1,9 +1,9 @@
 @use 'utilities_spacing';
 @use 'typography';
 
-$padding-values: 0 5;
-$margin-values: 0 16;
-$font-sizes: 20;
+$padding-values: 0 5 16 18 56 100;
+$margin-values: 0 16 20 30 36 50 60 70 100;
+$font-sizes: 18 20 24 36;
 
 @each $value in $padding-values {
   @include utilities_spacing.spacing-class("padding", $value, px);

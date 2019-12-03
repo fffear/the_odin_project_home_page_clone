@@ -1,0 +1,17 @@
+@mixin text-white {
+  color: #fff;
+}
+
+@mixin btn($color) {
+  display: inline-block;
+  background: $color;
+}
+
+@mixin rounded-corners {
+  border-radius: 5px;
+}
+
+@mixin shadow {
+  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+
+}

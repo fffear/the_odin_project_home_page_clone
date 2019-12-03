@@ -1,11 +1,20 @@
+.text-center {
+  text-align: center;
+}
+
 @font-face {
   font-family: "Norse";
   src: url("../typography/norse/Norse-Bold.otf");
 }
-.test {
-  font-size: 24px;
-  font-weight: bold;
-  font-family: "Norse";
+.main-heading {
+  color: #ce973e;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.secondary-heading {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(74, 74, 74, 0.7);
 }
 
 .navbar {
@@ -50,6 +59,7 @@
   height: 100%;
   align-items: center;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar .nav-link {
   display: inline-block;
@@ -65,6 +75,65 @@
   font-size: 24px;
 }
 
+.btn-blue-green {
+  display: inline-block;
+  background: #6abfc3;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.btn-blue-green:hover {
+  display: inline-block;
+  background: #8cc2c5;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.how-it-works .how-it-works-title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+.how-it-works .how-it-works-title h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+.how-it-works .how-it-works-title p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(74, 74, 74, 0.7);
+  line-height: 1.88;
+}
+.how-it-works .how-it-works-tiles {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+.how-it-works .how-it-works-tiles .how-it-works-tile .how-it-works-image {
+  height: 120px;
+}
+.how-it-works .how-it-works-tiles .how-it-works-tile h4 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+.how-it-works .how-it-works-tiles .how-it-works-tile p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(74, 74, 74, 0.7);
+  line-height: 1.88;
+}
+
+@media only screen and (min-width: 576px) {
+  .main-heading {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media only screen and (min-width: 768px) {
   .navbar {
     padding: 0 168px;
@@ -93,6 +162,14 @@
   }
   .navbar .right-nav-section {
     display: block;
+  }
+
+  .how-it-works .how-it-works-tiles {
+    margin: 0 auto;
+    max-width: 1080px;
+  }
+  .how-it-works .how-it-works-tiles .how-it-works-tile .how-it-works-image {
+    height: 165px;
   }
 }
 @media only screen and (min-width: 1036px) {

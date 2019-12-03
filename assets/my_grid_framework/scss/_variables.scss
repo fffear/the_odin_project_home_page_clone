@@ -1,13 +1,13 @@
 $column-width: 1 / 12;      // Column width represented as a fraction
 $gutter-width: 30px;    // 11 gutters = 330px +15px on start and +15px end of row
 
-
 // Typography values
 $font-size-base: 1rem !default;           // 10px
 $custom-font-size-base: 1rem / 16 !default;
 $font-weight-base: 100;                         // lowest font-weight
 $line-height-base: 1;                           // same value as font-size
 $font-family-sans-serif:      Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
+$font-family-sans-serif-2: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-base: $font-family-sans-serif;
 
 
