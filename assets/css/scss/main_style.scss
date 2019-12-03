@@ -215,6 +215,72 @@ body {
   }
 }
 
+// Success Stories
+.success-stories {
+  font-family: variables.$font-family-sans-serif;
+  line-height: 1.88;
+  background-image: linear-gradient(to bottom, #fff, #eee);
+
+  h2 {
+    font-weight: bold;
+    color: cv.$grey-2;
+  }
+
+  .success-stories-container {
+    margin: 100px auto 0;
+    max-width: 600px;
+
+    .success-story {
+      display: flex;
+
+      .photo {
+        flex: 0 0 100px;
+  
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+      }
+
+      .success-content {
+        text-align: left;
+
+        .person {
+          color: #ce973e;
+
+          &:hover {
+            color: #000;
+          }
+        }
+
+        p {
+          color: rgba(74, 74, 74, 0.7);
+        }
+      }
+    }
+  }
+
+  .more-success-stories {
+    display: block;
+    color:  cv.$grey;
+    text-decoration-line: underline;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .bottom-cta {
+    padding: 80px 40px;
+
+    p {
+      color: cv.$grey;
+      font-size: 35.2px;
+    }
+  }
+}
+
 @include media_breakpoints.media-breakpoint-up(sm) {
   .main-heading {
     max-width: 80%;
@@ -359,6 +425,14 @@ body {
         color: #CC9543;
         white-space: nowrap;
       }
+    }
+  }
+}
+
+@include media_breakpoints.media-breakpoint-up(xl) {
+  .success-stories {
+    .success-stories-container {
+      max-width: 1280px;
     }
   }
 }

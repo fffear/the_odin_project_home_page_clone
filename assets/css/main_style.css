@@ -176,6 +176,58 @@
   opacity: 0.8;
 }
 
+.success-stories {
+  font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  line-height: 1.88;
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+.success-stories h2 {
+  font-weight: bold;
+  color: #4A4A4A;
+}
+.success-stories .success-stories-container {
+  margin: 100px auto 0;
+  max-width: 600px;
+}
+.success-stories .success-stories-container .success-story {
+  display: flex;
+}
+.success-stories .success-stories-container .success-story .photo {
+  flex: 0 0 100px;
+}
+.success-stories .success-stories-container .success-story .photo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.success-stories .success-stories-container .success-story .success-content {
+  text-align: left;
+}
+.success-stories .success-stories-container .success-story .success-content .person {
+  color: #ce973e;
+}
+.success-stories .success-stories-container .success-story .success-content .person:hover {
+  color: #000;
+}
+.success-stories .success-stories-container .success-story .success-content p {
+  color: rgba(74, 74, 74, 0.7);
+}
+.success-stories .more-success-stories {
+  display: block;
+  color: rgba(74, 74, 74, 0.7);
+  text-decoration-line: underline;
+}
+.success-stories .more-success-stories:hover {
+  color: #000;
+}
+.success-stories .bottom-cta {
+  padding: 80px 40px;
+}
+.success-stories .bottom-cta p {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 35.2px;
+}
+
 @media only screen and (min-width: 576px) {
   .main-heading {
     max-width: 80%;
@@ -287,6 +339,11 @@
     line-height: 48px;
     color: #CC9543;
     white-space: nowrap;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .success-stories .success-stories-container {
+    max-width: 1280px;
   }
 }
 
