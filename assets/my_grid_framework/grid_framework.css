@@ -1412,6 +1412,191 @@ table {
   }
 }
 @media only screen and (min-width: 0) {
+  .p-60 {
+    padding: 60px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .p-sm-60 {
+    padding: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .p-md-60 {
+    padding: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .p-lg-60 {
+    padding: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .p-xl-60 {
+    padding: 60px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .pt-60 {
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .pt-sm-60 {
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .pt-md-60 {
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .pt-lg-60 {
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .pt-xl-60 {
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .pr-60 {
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .pr-sm-60 {
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .pr-md-60 {
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .pr-lg-60 {
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .pr-xl-60 {
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .pb-60 {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .pb-sm-60 {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .pb-md-60 {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .pb-lg-60 {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .pb-xl-60 {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .pl-60 {
+    padding-left: 60px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .pl-sm-60 {
+    padding-left: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .pl-md-60 {
+    padding-left: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .pl-lg-60 {
+    padding-left: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .pl-xl-60 {
+    padding-left: 60px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .px-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .px-sm-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .px-md-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .px-lg-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .px-xl-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .py-sm-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .py-md-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .py-lg-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .py-xl-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 0) {
   .p-100 {
     padding: 100px;
   }
@@ -1603,22 +1788,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-0 {
-    padding: 0px;
+    margin: 0px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-0 {
-    padding: 0px;
+    margin: 0px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-0 {
-    padding: 0px;
+    margin: 0px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-0 {
-    padding: 0px;
+    margin: 0px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1628,22 +1813,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-0 {
-    padding-top: 0px;
+    margin-top: 0px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-0 {
-    padding-top: 0px;
+    margin-top: 0px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-0 {
-    padding-top: 0px;
+    margin-top: 0px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-0 {
-    padding-top: 0px;
+    margin-top: 0px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1653,22 +1838,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-0 {
-    padding-right: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-0 {
-    padding-right: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-0 {
-    padding-right: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-0 {
-    padding-right: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1678,22 +1863,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-0 {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-0 {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-0 {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-0 {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1703,22 +1888,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-0 {
-    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-0 {
-    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-0 {
-    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-0 {
-    padding-left: 0px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1729,26 +1914,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1759,26 +1944,211 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .m-15 {
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .m-sm-15 {
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .m-md-15 {
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .m-lg-15 {
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .m-xl-15 {
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mt-15 {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mt-sm-15 {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mt-md-15 {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mt-lg-15 {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mt-xl-15 {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mr-15 {
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mr-sm-15 {
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mr-md-15 {
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mr-lg-15 {
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mr-xl-15 {
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mb-15 {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mb-sm-15 {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mb-md-15 {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mb-lg-15 {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mb-xl-15 {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .ml-15 {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .ml-sm-15 {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ml-md-15 {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ml-lg-15 {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .ml-xl-15 {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mx-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mx-sm-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mx-md-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mx-lg-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mx-xl-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .my-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .my-sm-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .my-md-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .my-lg-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .my-xl-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1788,22 +2158,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-16 {
-    padding: 16px;
+    margin: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-16 {
-    padding: 16px;
+    margin: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-16 {
-    padding: 16px;
+    margin: 16px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-16 {
-    padding: 16px;
+    margin: 16px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1813,22 +2183,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-16 {
-    padding-top: 16px;
+    margin-top: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-16 {
-    padding-top: 16px;
+    margin-top: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-16 {
-    padding-top: 16px;
+    margin-top: 16px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-16 {
-    padding-top: 16px;
+    margin-top: 16px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1838,22 +2208,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-16 {
-    padding-right: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-16 {
-    padding-right: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-16 {
-    padding-right: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-16 {
-    padding-right: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1863,22 +2233,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-16 {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-16 {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-16 {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-16 {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1888,22 +2258,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-16 {
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-16 {
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-16 {
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-16 {
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1914,26 +2284,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-16 {
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-16 {
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-16 {
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-16 {
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1944,26 +2314,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-16 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-16 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-16 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-16 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1973,22 +2343,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-20 {
-    padding: 20px;
+    margin: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-20 {
-    padding: 20px;
+    margin: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-20 {
-    padding: 20px;
+    margin: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-20 {
-    padding: 20px;
+    margin: 20px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -1998,22 +2368,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-20 {
-    padding-top: 20px;
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-20 {
-    padding-top: 20px;
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-20 {
-    padding-top: 20px;
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-20 {
-    padding-top: 20px;
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2023,22 +2393,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-20 {
-    padding-right: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-20 {
-    padding-right: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-20 {
-    padding-right: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-20 {
-    padding-right: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2048,22 +2418,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-20 {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-20 {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-20 {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-20 {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2073,22 +2443,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-20 {
-    padding-left: 20px;
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-20 {
-    padding-left: 20px;
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-20 {
-    padding-left: 20px;
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-20 {
-    padding-left: 20px;
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2099,26 +2469,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-20 {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-20 {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-20 {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-20 {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2129,26 +2499,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2158,22 +2528,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-30 {
-    padding: 30px;
+    margin: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-30 {
-    padding: 30px;
+    margin: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-30 {
-    padding: 30px;
+    margin: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-30 {
-    padding: 30px;
+    margin: 30px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2183,22 +2553,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-30 {
-    padding-top: 30px;
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-30 {
-    padding-top: 30px;
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-30 {
-    padding-top: 30px;
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-30 {
-    padding-top: 30px;
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2208,22 +2578,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-30 {
-    padding-right: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-30 {
-    padding-right: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-30 {
-    padding-right: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-30 {
-    padding-right: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2233,22 +2603,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-30 {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-30 {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-30 {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-30 {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2258,22 +2628,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-30 {
-    padding-left: 30px;
+    margin-left: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-30 {
-    padding-left: 30px;
+    margin-left: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-30 {
-    padding-left: 30px;
+    margin-left: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-30 {
-    padding-left: 30px;
+    margin-left: 30px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2284,26 +2654,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-30 {
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-30 {
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-30 {
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-30 {
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2314,26 +2684,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-30 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-30 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-30 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-30 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2343,22 +2713,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-36 {
-    padding: 36px;
+    margin: 36px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-36 {
-    padding: 36px;
+    margin: 36px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-36 {
-    padding: 36px;
+    margin: 36px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-36 {
-    padding: 36px;
+    margin: 36px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2368,22 +2738,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-36 {
-    padding-top: 36px;
+    margin-top: 36px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-36 {
-    padding-top: 36px;
+    margin-top: 36px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-36 {
-    padding-top: 36px;
+    margin-top: 36px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-36 {
-    padding-top: 36px;
+    margin-top: 36px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2393,22 +2763,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-36 {
-    padding-right: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-36 {
-    padding-right: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-36 {
-    padding-right: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-36 {
-    padding-right: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2418,22 +2788,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-36 {
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-36 {
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-36 {
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-36 {
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2443,22 +2813,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-36 {
-    padding-left: 36px;
+    margin-left: 36px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-36 {
-    padding-left: 36px;
+    margin-left: 36px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-36 {
-    padding-left: 36px;
+    margin-left: 36px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-36 {
-    padding-left: 36px;
+    margin-left: 36px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2469,26 +2839,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-36 {
-    padding-left: 36px;
-    padding-right: 36px;
+    margin-left: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-36 {
-    padding-left: 36px;
-    padding-right: 36px;
+    margin-left: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-36 {
-    padding-left: 36px;
-    padding-right: 36px;
+    margin-left: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-36 {
-    padding-left: 36px;
-    padding-right: 36px;
+    margin-left: 36px;
+    margin-right: 36px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2499,26 +2869,211 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-36 {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-36 {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-36 {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-36 {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .m-40 {
+    margin: 40px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .m-sm-40 {
+    margin: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .m-md-40 {
+    margin: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .m-lg-40 {
+    margin: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .m-xl-40 {
+    margin: 40px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mt-40 {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mt-sm-40 {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mt-md-40 {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mt-lg-40 {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mt-xl-40 {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mr-40 {
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mr-sm-40 {
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mr-md-40 {
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mr-lg-40 {
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mr-xl-40 {
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mb-sm-40 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mb-md-40 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mb-lg-40 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mb-xl-40 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .ml-40 {
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .ml-sm-40 {
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ml-md-40 {
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ml-lg-40 {
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .ml-xl-40 {
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .mx-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mx-sm-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mx-md-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mx-lg-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mx-xl-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 0) {
+  .my-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .my-sm-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .my-md-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .my-lg-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .my-xl-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2528,22 +3083,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-50 {
-    padding: 50px;
+    margin: 50px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-50 {
-    padding: 50px;
+    margin: 50px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-50 {
-    padding: 50px;
+    margin: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-50 {
-    padding: 50px;
+    margin: 50px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2553,22 +3108,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-50 {
-    padding-top: 50px;
+    margin-top: 50px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-50 {
-    padding-top: 50px;
+    margin-top: 50px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-50 {
-    padding-top: 50px;
+    margin-top: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-50 {
-    padding-top: 50px;
+    margin-top: 50px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2578,22 +3133,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-50 {
-    padding-right: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-50 {
-    padding-right: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-50 {
-    padding-right: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-50 {
-    padding-right: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2603,22 +3158,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-50 {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-50 {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-50 {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-50 {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2628,22 +3183,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-50 {
-    padding-left: 50px;
+    margin-left: 50px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-50 {
-    padding-left: 50px;
+    margin-left: 50px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-50 {
-    padding-left: 50px;
+    margin-left: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-50 {
-    padding-left: 50px;
+    margin-left: 50px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2654,26 +3209,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-50 {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-50 {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-50 {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-50 {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2684,26 +3239,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2713,22 +3268,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-60 {
-    padding: 60px;
+    margin: 60px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-60 {
-    padding: 60px;
+    margin: 60px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-60 {
-    padding: 60px;
+    margin: 60px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-60 {
-    padding: 60px;
+    margin: 60px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2738,22 +3293,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-60 {
-    padding-top: 60px;
+    margin-top: 60px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-60 {
-    padding-top: 60px;
+    margin-top: 60px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-60 {
-    padding-top: 60px;
+    margin-top: 60px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-60 {
-    padding-top: 60px;
+    margin-top: 60px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2763,22 +3318,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-60 {
-    padding-right: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-60 {
-    padding-right: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-60 {
-    padding-right: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-60 {
-    padding-right: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2788,22 +3343,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-60 {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-60 {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-60 {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-60 {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2813,22 +3368,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-60 {
-    padding-left: 60px;
+    margin-left: 60px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-60 {
-    padding-left: 60px;
+    margin-left: 60px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-60 {
-    padding-left: 60px;
+    margin-left: 60px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-60 {
-    padding-left: 60px;
+    margin-left: 60px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2839,26 +3394,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-60 {
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-60 {
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-60 {
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-60 {
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2869,26 +3424,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-60 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-60 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-60 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-60 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2898,22 +3453,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-70 {
-    padding: 70px;
+    margin: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-70 {
-    padding: 70px;
+    margin: 70px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-70 {
-    padding: 70px;
+    margin: 70px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-70 {
-    padding: 70px;
+    margin: 70px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2923,22 +3478,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-70 {
-    padding-top: 70px;
+    margin-top: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-70 {
-    padding-top: 70px;
+    margin-top: 70px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-70 {
-    padding-top: 70px;
+    margin-top: 70px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-70 {
-    padding-top: 70px;
+    margin-top: 70px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2948,22 +3503,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-70 {
-    padding-right: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-70 {
-    padding-right: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-70 {
-    padding-right: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-70 {
-    padding-right: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2973,22 +3528,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-70 {
-    padding-bottom: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-70 {
-    padding-bottom: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-70 {
-    padding-bottom: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-70 {
-    padding-bottom: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -2998,22 +3553,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-70 {
-    padding-left: 70px;
+    margin-left: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-70 {
-    padding-left: 70px;
+    margin-left: 70px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-70 {
-    padding-left: 70px;
+    margin-left: 70px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-70 {
-    padding-left: 70px;
+    margin-left: 70px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3024,26 +3579,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-70 {
-    padding-left: 70px;
-    padding-right: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-70 {
-    padding-left: 70px;
-    padding-right: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-70 {
-    padding-left: 70px;
-    padding-right: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-70 {
-    padding-left: 70px;
-    padding-right: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3054,26 +3609,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-70 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-70 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-70 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-70 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3083,22 +3638,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .m-sm-100 {
-    padding: 100px;
+    margin: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
   .m-md-100 {
-    padding: 100px;
+    margin: 100px;
   }
 }
 @media only screen and (min-width: 992px) {
   .m-lg-100 {
-    padding: 100px;
+    margin: 100px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .m-xl-100 {
-    padding: 100px;
+    margin: 100px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3108,22 +3663,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mt-sm-100 {
-    padding-top: 100px;
+    margin-top: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mt-md-100 {
-    padding-top: 100px;
+    margin-top: 100px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mt-lg-100 {
-    padding-top: 100px;
+    margin-top: 100px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mt-xl-100 {
-    padding-top: 100px;
+    margin-top: 100px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3133,22 +3688,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mr-sm-100 {
-    padding-right: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mr-md-100 {
-    padding-right: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mr-lg-100 {
-    padding-right: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mr-xl-100 {
-    padding-right: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3158,22 +3713,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mb-sm-100 {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mb-md-100 {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mb-lg-100 {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mb-xl-100 {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3183,22 +3738,22 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .ml-sm-100 {
-    padding-left: 100px;
+    margin-left: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
   .ml-md-100 {
-    padding-left: 100px;
+    margin-left: 100px;
   }
 }
 @media only screen and (min-width: 992px) {
   .ml-lg-100 {
-    padding-left: 100px;
+    margin-left: 100px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ml-xl-100 {
-    padding-left: 100px;
+    margin-left: 100px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3209,26 +3764,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .mx-sm-100 {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
   .mx-md-100 {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 992px) {
   .mx-lg-100 {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .mx-xl-100 {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 @media only screen and (min-width: 0) {
@@ -3239,26 +3794,26 @@ table {
 }
 @media only screen and (min-width: 576px) {
   .my-sm-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
   .my-md-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 992px) {
   .my-lg-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .my-xl-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 0) {

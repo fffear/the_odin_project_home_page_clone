@@ -33,25 +33,25 @@
 @mixin create-sm-and-up-spacing-classes($spacing-type, $value, $unit_of_measurement, $breakpoint-size-key, $side: null) {
   @if $side == null {
     .#{map-get(variables.$spacing-types, $spacing-type)}-#{$breakpoint-size-key}-#{$value} {
-      padding: #{$value}#{$unit_of_measurement};
+      #{$spacing-type}: #{$value}#{$unit_of_measurement};
     }
   }
   @else if map-has-key(variables.$valid-sides, $side)  {
     @if $side == "horizontal" {
       .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$breakpoint-size-key}-#{$value} {
-        padding-left: #{$value}#{$unit_of_measurement};
-        padding-right: #{$value}#{$unit_of_measurement};
+        #{$spacing-type}-left: #{$value}#{$unit_of_measurement};
+        #{$spacing-type}-right: #{$value}#{$unit_of_measurement};
       }
     }
     @else if $side == "vertical" {
       .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$breakpoint-size-key}-#{$value} {
-        padding-top: #{$value}#{$unit_of_measurement};
-        padding-bottom: #{$value}#{$unit_of_measurement};
+        #{$spacing-type}-top: #{$value}#{$unit_of_measurement};
+        #{$spacing-type}-bottom: #{$value}#{$unit_of_measurement};
       }
     }
     @else {
       .#{map-get(variables.$spacing-types, $spacing-type)}#{map-get(variables.$valid-sides, $side)}-#{$breakpoint-size-key}-#{$value} {
-        padding-#{$side}: #{$value}#{$unit_of_measurement};
+        #{$spacing-type}-#{$side}: #{$value}#{$unit_of_measurement};
       }
     }
   }
