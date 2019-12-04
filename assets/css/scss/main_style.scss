@@ -366,6 +366,77 @@ footer {
   }
 }
 
+.floating-comments-dropdown-btn {
+  display: inline-block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  .hidden-floating-btn-container {
+    position: absolute;
+    width: 100%;
+    
+    .hidden-floating-btn {
+      display: block;
+      background: cv.$blue-green;
+      font-size: 24px;
+      color: #fff;
+      padding: 8px;
+      border-radius: 50%;
+      box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+      margin: 0 0.6rem 20px;
+  
+      &:hover {
+        box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .hidden-floating-btn-one {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: top 1s ease-out, opacity 0.5s;
+  }
+
+  .hidden-floating-btn-two {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: top 1s ease-out, opacity 0.5s;
+  }
+  
+  .floating-comments-btn {
+    position: relative;
+    padding: 16px;
+    background: cv.$blue-green;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    z-index: 100;
+
+    &:hover {
+      box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
+    }
+
+    &:hover + .hidden-floating-btn-two {
+      top: -124px;
+      opacity: 1;
+    }
+
+    &:hover ~ .hidden-floating-btn-one {
+      top: -62px;
+      opacity: 1;
+    }
+  }
+  
+  .fa-comments {
+    color: #fff;
+    font-size: 32px;
+  }
+}
+
 @media only screen and (min-width: 480px) {
   footer {
     height: 140px;
