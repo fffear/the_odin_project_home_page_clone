@@ -281,6 +281,101 @@ body {
   }
 }
 
+// Footer
+footer {
+  display: flex;
+  height: 70px;
+
+  .logo-brand-section {
+    display: none;
+  }
+
+  .logo-brand-section {
+    flex: 2;
+  }
+
+  .footer-links {
+    flex: 1;
+  }
+
+  .social {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      height: 36px;
+    }
+
+    .fab {
+      color: cv.$gold;
+      font-size: 24px;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  .logo-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo-image {
+      height: 60px;
+    }
+
+    .logo-text {
+      font-size: 19.2px;
+      font-family: "Norse";
+      color: cv.$gold;
+      padding-left: 9.6px;
+    }
+  }
+
+  .footer-links {
+    display:none;
+    justify-content: center;
+    align-items: center;
+    color: cv.$grey;
+
+    .footer-links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      width: 130px;
+      height: 90px;
+      font-family: variables.$font-family-sans-serif;
+
+      .footer-link {
+        flex-basis: 30px;
+        font-weight: bold;
+
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  footer {
+    height: 140px;
+
+    .footer-links {
+      display: flex;
+    }
+  }
+}
+
 @include media_breakpoints.media-breakpoint-up(sm) {
   .main-heading {
     max-width: 80%;
@@ -370,6 +465,20 @@ body {
       }
     }
   }
+
+  footer {
+    height: 277px;
+
+    .logo-brand-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-links {
+      flex: 2;
+    }
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -403,6 +512,14 @@ body {
       }
     }
   }
+
+  footer {
+    .logo-brand {
+      .logo-image {
+        height: 70px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1036px) {
@@ -424,6 +541,15 @@ body {
         line-height: 48px;
         color: #CC9543;
         white-space: nowrap;
+      }
+    }
+  }
+
+  footer {
+    .logo-brand {  
+      .logo-text {
+        font-size: 25.6px;
+        padding-left: 12.8px;
       }
     }
   }
